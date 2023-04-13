@@ -1,14 +1,28 @@
 {
 
+  "name": "battletowers:battletower/start_pool",
+
+
   "fallback": "minecraft:empty",
+
 
   "elements": [
     {
+
+
       "weight": 1,
       "element": {
-        "location": "battletowers:battletower",
+
+
+        "location": "tutorialmod:kaupen_house",
+
+
         "processors": "minecraft:empty",
+
+
         "projection": "rigid",
+
+
         "element_type": "minecraft:single_pool_element"
       }
     }

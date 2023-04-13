@@ -1,4 +1,5 @@
 {
+
   "structures": [
     {
       "structure": "battletowers:battletower",
@@ -6,9 +7,16 @@
     }
   ],
   "placement": {
-    "salt": 1234567893,
-    "spacing": 12,
-    "separation": 4,
+
+    "salt": 1642136474,
+
+
+    "spacing": 20,
+
+
+    "separation": 6,
+
+
     "type": "minecraft:random_spread"
   }
 }
