@@ -1,97 +1,133 @@
 {
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
-      "has_cobblestone": "2023-04-12 22:03:18 -0400"
+      "has_cobblestone": "2023-04-15 15:22:41 -0400"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
-      "has_cobblestone": "2023-04-12 22:03:18 -0400"
+      "has_cobblestone": "2023-04-15 15:22:41 -0400"
     },
     "done": true
   },
   "minecraft:recipes/tools/stone_hoe": {
     "criteria": {
-      "has_cobblestone": "2023-04-12 22:03:18 -0400"
+      "has_cobblestone": "2023-04-15 15:22:41 -0400"
     },
     "done": true
   },
   "minecraft:recipes/redstone/lever": {
     "criteria": {
-      "has_cobblestone": "2023-04-12 22:03:18 -0400"
+      "has_cobblestone": "2023-04-15 15:22:41 -0400"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
     "criteria": {
-      "has_cobblestone": "2023-04-12 22:03:18 -0400"
+      "has_cobblestone": "2023-04-15 15:22:41 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:slime": "2023-04-15 15:21:29 -0400"
     },
     "done": true
   },
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
-      "has_cobblestone": "2023-04-12 22:03:18 -0400"
+      "has_cobblestone": "2023-04-15 15:22:41 -0400"
     },
     "done": true
   },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:slime": "2023-04-15 15:21:29 -0400"
+    },
+    "done": false
+  },
   "minecraft:recipes/decorations/cobblestone_wall": {
     "criteria": {
-      "has_cobblestone": "2023-04-12 22:03:18 -0400"
+      "has_cobblestone": "2023-04-15 15:22:41 -0400"
     },
     "done": true
   },
   "minecraft:recipes/tools/stone_pickaxe": {
     "criteria": {
-      "has_cobblestone": "2023-04-12 22:03:18 -0400"
+      "has_cobblestone": "2023-04-15 15:22:41 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2023-04-15 15:21:28 -0400"
     },
     "done": true
   },
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
-      "has_cobblestone": "2023-04-12 22:03:18 -0400"
+      "has_cobblestone": "2023-04-15 15:22:41 -0400"
     },
     "done": true
   },
   "minecraft:story/mine_stone": {
     "criteria": {
-      "get_stone": "2023-04-12 22:03:18 -0400"
+      "get_stone": "2023-04-15 15:22:41 -0400"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/stone": {
     "criteria": {
-      "has_cobblestone": "2023-04-12 22:03:18 -0400"
+      "has_cobblestone": "2023-04-15 15:22:41 -0400"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
-      "has_cobblestone": "2023-04-12 22:03:18 -0400"
+      "has_cobblestone": "2023-04-15 15:22:41 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2023-04-15 15:21:29 -0400"
     },
     "done": true
   },
   "minecraft:recipes/decorations/furnace": {
     "criteria": {
-      "has_cobblestone": "2023-04-12 22:03:18 -0400"
+      "has_cobblestone": "2023-04-15 15:22:41 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2023-04-15 15:21:28 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2023-04-15 15:21:28 -0400"
     },
     "done": true
   },
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
-      "has_cobblestone": "2023-04-12 22:03:18 -0400"
+      "has_cobblestone": "2023-04-15 15:22:41 -0400"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:plains": "2023-04-12 22:01:35 -0400"
+      "minecraft:plains": "2023-04-15 15:17:50 -0400"
     },
     "done": false
   },
   "minecraft:recipes/building_blocks/cobblestone_stairs": {
     "criteria": {
-      "has_cobblestone": "2023-04-12 22:03:18 -0400"
+      "has_cobblestone": "2023-04-15 15:22:41 -0400"
     },
     "done": true
   },
