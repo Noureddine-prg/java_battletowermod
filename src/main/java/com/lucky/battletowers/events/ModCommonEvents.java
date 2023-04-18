@@ -4,6 +4,7 @@ import com.lucky.battletowers.BattleTowers;
 import com.lucky.battletowers.entity.custom.BattleTowerGolemEntity;
 import com.lucky.battletowers.entity.ModEntityTypes;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
+import net.minecraftforge.event.entity.living.LivingDeathEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 

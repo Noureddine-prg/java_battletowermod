@@ -17,7 +17,7 @@ public class ModEntityTypes {
 
     public static final RegistryObject<EntityType<BattleTowerGolemEntity>> BATTLETOWER_GOLEM =
             ENTITY.register("battle_tower_golem",
-                    () -> EntityType.Builder.of(BattleTowerGolemEntity::new, MobCategory.MONSTER).sized(0.6f, 1.8f).build(new ResourceLocation(BattleTowers.MODID, "battle_tower_golem").toString()));
+                    () -> EntityType.Builder.of(BattleTowerGolemEntity::new, MobCategory.MONSTER).sized(1.4f, 4f).build(new ResourceLocation(BattleTowers.MODID, "battle_tower_golem").toString()));
 
     public static void register(IEventBus eventBus)
     {
