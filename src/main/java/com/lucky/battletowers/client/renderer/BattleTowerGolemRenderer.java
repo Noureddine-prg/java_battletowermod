@@ -9,13 +9,13 @@ import net.minecraft.resources.ResourceLocation;
 
 public class BattleTowerGolemRenderer extends MobRenderer<BattleTowerGolemEntity, BattleTowerGolemModel> {
 
-    private static final ResourceLocation TEXTURE = new ResourceLocation(BattleTowers.MODID, "assets/battletowers/textures/entities/battletower_golem.png");
+    private static final ResourceLocation TEXTURE = new ResourceLocation(BattleTowers.MODID, "textures/entities/battle_tower_golem.png");
     public BattleTowerGolemRenderer(EntityRendererProvider.Context ctx) {
         super(ctx, new BattleTowerGolemModel(ctx.bakeLayer(BattleTowerGolemModel.LAYER_LOCATION)), 1f);
     }
 
     @Override
     public ResourceLocation getTextureLocation(BattleTowerGolemEntity pEntity) {
-        return null;
+        return TEXTURE;
     }
 }

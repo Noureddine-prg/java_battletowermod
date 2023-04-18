@@ -3,7 +3,7 @@ package com.lucky.battletowers.events;
 import com.lucky.battletowers.BattleTowers;
 import com.lucky.battletowers.client.models.BattleTowerGolemModel;
 import com.lucky.battletowers.client.renderer.BattleTowerGolemRenderer;
-import com.lucky.battletowers.entity.custom.ModEntityTypes;
+import com.lucky.battletowers.entity.ModEntityTypes;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
