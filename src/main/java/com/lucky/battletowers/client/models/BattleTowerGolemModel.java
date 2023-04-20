@@ -57,7 +57,6 @@ public class BattleTowerGolemModel extends EntityModel<BattleTowerGolemEntity> {
 	@Override
 	public void setupAnim(BattleTowerGolemEntity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
 
-		/*
 		boolean flag = entity.getFallFlyingTicks() > 4;
 		
 		// Head movement
@@ -95,26 +94,7 @@ public class BattleTowerGolemModel extends EntityModel<BattleTowerGolemEntity> {
 			this.left_leg.yRot = (-(float)Math.PI / 10F);
 			this.left_leg.zRot = -0.07853982F;
 		}
-		 */
-		this.head.yRot = netHeadYaw * ((float)Math.PI / 180F);
-		this.head.xRot = headPitch * ((float)Math.PI / 180F);
-		this.right_leg.xRot = -1.5F * Mth.triangleWave(limbSwing, 13.0F) * limbSwingAmount;
-		this.left_leg.xRot = 1.5F * Mth.triangleWave(limbSwing, 13.0F) * limbSwingAmount;
-		this.right_leg.yRot = 0.0F;
-		this.left_leg.yRot = 0.0F;
 	}
-
-	public void prepareMobModel(BattleTowerGolemEntity pEntity, float pLimbSwing, float pLimbSwingAmount, float pPartialTick) {
-		int i = pEntity.getAttackAnimationTick();
-		if (i > 0) {
-			this.right_arm.xRot = -2.0F + 1.5F * Mth.triangleWave((float)i - pPartialTick, 10.0F);
-			this.left_arm.xRot = -2.0F + 1.5F * Mth.triangleWave((float)i - pPartialTick, 10.0F);
-		} else {
-			this.right_arm.xRot = (-0.2F + 1.5F * Mth.triangleWave(pLimbSwing, 13.0F)) * pLimbSwingAmount;
-			this.left_arm.xRot = (-0.2F - 1.5F * Mth.triangleWave(pLimbSwing, 13.0F)) * pLimbSwingAmount;
-			}
-		}
-
 
 	@Override
 	public void renderToBuffer(PoseStack poseStack, VertexConsumer vertexConsumer, int packedLight, int packedOverlay, float red, float green, float blue, float alpha) {

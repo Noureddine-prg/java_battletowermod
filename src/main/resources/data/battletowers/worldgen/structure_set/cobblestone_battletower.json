@@ -1,16 +1,17 @@
 {
   "structures": [
     {
-      "structure": "battletowers:battletower",
+      "structure": "battletowers:cobblestone_battletower",
       "weight": 1
     }
   ],
   "placement": {
-    "salt": 1742136574,
+
+    "salt": 5464623448,
 
     "spacing": 20,
 
-    "separation": 6,
+    "separation": 12,
 
     "type": "minecraft:random_spread"
   }

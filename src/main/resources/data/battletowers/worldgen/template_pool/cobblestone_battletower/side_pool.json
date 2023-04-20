@@ -1,24 +1,13 @@
 {
-
-  "name": "battletowers:battletower/start_pool",
-
-
+  "name": "battletowers:cobblestone_battletower/side_pool",
   "fallback": "minecraft:empty",
-
-
   "elements": [
     {
-
-
-      "weight": 1,
+      "weight": 10,
       "element": {
-
-        "location": "battletowers:battletower",
-
+        "location": "battletowers:cobblestone_battletower_top",
         "processors": "minecraft:empty",
-
         "projection": "rigid",
-
         "element_type": "minecraft:single_pool_element"
       }
     }
